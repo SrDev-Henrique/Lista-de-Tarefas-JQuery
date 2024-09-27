@@ -181,7 +181,20 @@ button{
         padding: 0;
     }
 
+    .container{
+        border-radius: 0;
+    }
+
     .top{
         padding: 0;
+    }
+
+    .top input{
+        width: 55%;
+    }
+
+    .bottom ul li{
+        flex-direction: column;
+        align-items: start;
     }
 }
